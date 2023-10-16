@@ -5,8 +5,9 @@ public class PizzaDriver {
     Pizza pizza3 = new Pizza(pizza2);// Same as pizza 2, use copy constructor
     Pizza pizza4 = new Pizza(pizza1);// Same as pizza 1, use copy constructor
 
-    PizzaOrder order = new PizzaOrder(3); // create an order of THREE pizzas
-
+    /** create an order of THREE pizzas
+    */
+    PizzaOrder order = new PizzaOrder(3); 
     System.out.println(order.addPizza(pizza1)); 
     // add pizza2 to the order
     System.out.println(order.addPizza(pizza2)); 
